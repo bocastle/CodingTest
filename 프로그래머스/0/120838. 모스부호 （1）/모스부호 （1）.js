@@ -8,5 +8,6 @@ function solution(letter) {
     };
     
     let answer = letter.split(" ").map(code => morse[code]).join("");
+    
     return answer;
 }
