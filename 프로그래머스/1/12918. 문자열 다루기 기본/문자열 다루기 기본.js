@@ -1,3 +1,11 @@
 function solution(s) {
-  return (s.length === 4 || s.length === 6) && /^\d+$/.test(s);
+    let answer = false;
+    
+    const testCase = /^\d+$/;
+    if(s.length === 4 || s.length === 6){
+           answer = testCase.test(s);  
+    }
+ 
+   
+    return answer;
 }
